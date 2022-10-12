@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: hsla(0, 0%, 0%, 1);
+}
+
+.top {
+    background-color: #454545;
+    width: 100vw;
+    height: 10vh;
+}
+
+.rest-left {
+    height: 90vh;
+    width: 10vw;
+    background-color: hsla(0, 0%, 85%, 1);
+}
+
+.rest-right {
+    height: 90vh;
+    width: 10vw;
+    background-color: hsla(0, 0%, 85%, 1);
+}
+
+.rest-middle-up {
+    height: 40vw;
+    width: 80vw;
+    background-color: #FFFFFF;
+}
+
+/* .rest-middle-down {
+    background-color: hsla(0, 0%, 0%, 1);
+    width: 80vh;
+    height: 30vw;
+    
+} */
+
+.rest {
+    display: flex;
+    flex-direction: row;
+}
+
+.rest-middle {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,74 @@
+
+
+.up {
+    border: solid black 5px;
+    height: 30vh;
+    width: 92vw;
+    padding: 1%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 2em;
+    
+}
+
+.blue {
+    height: 20vh;
+    width: 2vw;
+    background-color: hsla(271, 76%, 53%, 1);
+    margin-right: 3em;
+}
+
+.green {
+    background-color: hsla(120, 61%, 34%, 1);
+    width: 29vw;
+    height: 30vh;
+    margin: 0 1em;
+}
+
+.pink {
+    background-color: hsla(197, 71%, 73%, 1);
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+    margin: 0 3em;
+}
+
+.middle {
+    border: dotted black 8px;
+    height: 30vh;
+    width: 94vw;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beage {
+    background-color: hsla(54, 100%, 90%, 1);
+    height: 20vh;
+    width: 87vw;
+    
+    box-shadow: 7px 7px 7px;
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid hsla(0, 0%, 85%, 1) 1px;
+    height: 23vh;
+    width: 23vw;
+    margin: 0 37vw;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 92%, 1);
+}
+
+h2 {
+    color: hsla(243, 73%, 29%, 1);
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
